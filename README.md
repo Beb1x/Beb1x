@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @Beb1x
 - 👀 I’m interested in automation of varios services
-- 🌱 I’m currently learning python , c programming language
+- 🌱 I’m currently learning python , c programming language + sql cuz i like dba tbh
