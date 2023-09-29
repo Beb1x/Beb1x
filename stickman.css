@@ -1,0 +1,15 @@
+.stickman {
+    width: 66px;
+    height: 143px;
+    background: url('stickman.png') no-repeat;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
