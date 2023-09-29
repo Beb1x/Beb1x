@@ -1,0 +1,15 @@
+.head {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.body {
+    width: 10px;
+    height: 50px;
+    background-color: black;
+    transform-origin: center top;
+    transition: transform 0.2s;
+}
