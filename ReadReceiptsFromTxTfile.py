@@ -29,20 +29,20 @@ def find_missing_and_duplicate_receipt_numbers_in_subfolder(subfolder):
                     missing_receipt_numbers = set(range(min_receipt_number, max_receipt_number + 1)) - receipt_numbers
 
                     if missing_receipt_numbers or receipt_duplicates:
-                        output_text.insert(tk.END, f"Fisier: {filename}\n")
+                        output_text.insert(tk.END, f"File: {filename}\n")
                         output_text.update()
-                        output_text.insert(tk.END, f"Primul bon: {min_receipt_number}\n")
+                        output_text.insert(tk.END, f"First receipts: {min_receipt_number}\n")
                         output_text.update()
-                        output_text.insert(tk.END, f"Ultimul bon: {max_receipt_number}\n")
+                        output_text.insert(tk.END, f"last receipts: {max_receipt_number}\n")
                         output_text.update()
                         
                         if missing_receipt_numbers:
-                            output_text.insert(tk.END, f"Bonuri Lipsa: {missing_receipt_numbers}\n")
+                            output_text.insert(tk.END, f"Missing receipts: {missing_receipt_numbers}\n")
                         
                         if receipt_duplicates:
-                            output_text.insert(tk.END, "Bonuri Duplicate:\n")
+                            output_text.insert(tk.END, "Duplicated receipts:\n")
                             for receipt_number in receipt_duplicates:
-                                output_text.insert(tk.END, f"Bonul {receipt_number} apare de {receipt_counts[receipt_number]} ori.\n")
+                                output_text.insert(tk.END, f"Receipt {receipt_number} it appears {receipt_counts[receipt_number]} times.\n")
                         
                         output_text.insert(tk.END, "=" * 40 + "\n")
 
@@ -58,13 +58,13 @@ def start_search():
     find_missing_and_duplicate_receipt_numbers_in_subfolder(subfolder)
 
 root = tk.Tk()
-root.title("Bonuri Lipsa")
-folder_label = tk.Label(root, text="Unde se afla fisierul .txt:")
+root.title("Missing receipts")
+folder_label = tk.Label(root, text="Location of .txt file:")
 folder_label.pack()
 folder_var = tk.StringVar()
 folder_entry = tk.Entry(root, textvariable=folder_var)
 folder_entry.pack()
-browse_button = tk.Button(root, text="Cauta", command=browse_folder)
+browse_button = tk.Button(root, text="Search", command=browse_folder)
 browse_button.pack()
 start_button = tk.Button(root, text="Start", command=start_search)
 start_button.pack()
