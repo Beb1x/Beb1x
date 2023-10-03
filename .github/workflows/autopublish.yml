@@ -1,0 +1,30 @@
+name: Release scripts
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build scripts
+        run: make build
+
+      - name: Create release
+        uses: actions/create-release@v1
+        with:
+          tag: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            This is a release of the scripts.
+
+      - name: Upload scripts
+        uses: actions/upload-artifact@v3
+        with:
+          name: scripts
+          path: dist/
