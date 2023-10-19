@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Beb1x
-- 👀 I’m interested in automation of varios services
+- 👀 I’m interested in automation of various services
 - 🌱 I’m currently learning python , c programming language + sql cuz i like dba tbh
 - i really love to modify , find & use exploits to gain advantage or simply for fun on multiple or diferent programs then make programs for other to use, usually open source, i will post them here in the near future (i dont know if it's legal still researching)
 - programs im using usually : https://x64dbg.com/ , https://www.cheatengine.org/ , https://nmap.org/ , https://www.kali.org/tools/nmap/ , https://www.vmware.com/ , windows virtual machine, python, microsoft visual studio
