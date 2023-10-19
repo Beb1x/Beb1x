@@ -5,7 +5,7 @@
 - programs im using usually : https://x64dbg.com/ , https://www.cheatengine.org/ , https://nmap.org/ , https://www.kali.org/tools/nmap/ , https://www.vmware.com/ , windows virtual machine, python, microsoft visual studio
 - OS ( kali or windows [Im lazy bro] )
 - in my spare time when im not playing games, i like to make malware,trojans for windows operating sistem , education only , if i decide to post it here it's gonna be open source and not compiled (exe or vbs)
-# I WILL TRY TO KEEP AS OPEN SOURCE AS POSSIBLE 
+# I'm committed to maintaining an open-source approach in all my scripts and programs
 
 
 
