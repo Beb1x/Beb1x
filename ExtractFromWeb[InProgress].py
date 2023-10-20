@@ -19,12 +19,12 @@ if not os.path.exists(config_file_path):
     config.add_section("Website1")
     config.set("Website1", "URL", "https://github.com/Beb1x/Beb1x/releases/tag/v0.0.1-alpha")
     config.set("Website1", "DownloadPath", default_download_path)
-    config.set("Website1", "FilePattern", "%%.*%%.zip")  # Default file pattern
+    config.set("Website1", "FilePattern", "%%.*%%.zip")
     
     config.add_section("Website2")
-    config.set("Website2", "URL", "https://freetestdata.com/xml-files/")
+    config.set("Website2", "URL", "I  REALLY DONT FIND ANY SITESS????")
     config.set("Website2", "DownloadPath", default_download_path)
-    config.set("Website2", "FilePattern", "%%.*%%.xml")  # Default file pattern
+    config.set("Website2", "FilePattern", "%%.*%%.xml")
     
     with open(config_file_path, 'w') as configfile:
         config.write(configfile)
@@ -38,7 +38,7 @@ def list_extractable_media(url, file_pattern):
         soup = BeautifulSoup(response.text, "html.parser")
         media_links = []
         for link in soup.find_all('a', href=True):
-            href = str(link.get('href'))  # Convert to string
+            href = str(link.get('href'))  # Convert to string DONT FORGET
             if re.search(file_pattern, href):
                 media_links.append(href)
         
@@ -57,7 +57,7 @@ def find_and_download_media(url, download_path, file_pattern):
         soup = BeautifulSoup(response.text, "html.parser")
         media_links = []
         for link in soup.find_all('a', href=True):
-            href = str(link.get('href'))  # Convert to string
+            href = str(link.get('href'))  # Convert to string DONT FORGET
             if re.search(file_pattern, href):
                 media_links.append(href)
         
@@ -99,7 +99,12 @@ for section in config.sections():
             with open(config_file_path, 'w') as configfile:
                 config.write(configfile)
         
-        list_extractable_media(website_url, file_pattern)  # List available media
+        list_extractable_media(website_url, file_pattern) 
         find_and_download_media(website_url, download_path, file_pattern)
 
 time.sleep(5)
+
+##//FOR THE LOVE OF GOD OPTIMISE THIS
+##ITS A MESS TO BE HONEST
+##ITS CLOSE TO MIDNIGHT AND IM WORKING ON THIS SHIT
+##Its also my pleasure heheee
