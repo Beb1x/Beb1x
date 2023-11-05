@@ -61,7 +61,7 @@ def run_batch_script_remotely(target_pc, script_path):
     session = winrm.Session(
         target_pc,
         auth=(username, password),
-        server_cert_validation='ignore'  # You can configure certificate validation as needed.
+        server_cert_validation='ignore' 
     )
 
     encoded_ps = f"$encoded = [System.Text.Encoding]::UTF8.GetBytes(@'{script_path}'); " \
