@@ -1,6 +1,5 @@
 using System;
 using System.Text.RegularExpressions;
-
 class SmartCardReaderDriver
 {
     private string deviceName;
