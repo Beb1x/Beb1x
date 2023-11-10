@@ -49,7 +49,7 @@ def create_config_if_missing(config_path: str) -> None:
     if not os.path.exists(config_path):
         logging.info(f"Config file not found. Creating at {config_path}")
         config = configparser.ConfigParser()
-        config['Settings'] = {'pin': '123456789', 'WindowTitle': 'Your Window Title', 'ExeMonitorPath': 'C:\Windows\SysWOW64\myProgram.exe'}
+        config['Settings'] = {'pin': '123456789', 'WindowTitle': 'Your Window Title[or window of your choosing]', 'ExeMonitorPath': 'C:\Windows\SysWOW64\CredentialUIBroker.exe[or path of your choosing]'}
         with open(config_path, 'w') as config_file:
             config.write(config_file)
 async def check_program_periodically(window_title: str, pin_number: str, exe_name: str) -> None:
