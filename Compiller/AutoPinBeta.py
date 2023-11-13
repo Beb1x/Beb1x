@@ -10,7 +10,6 @@ from pathlib import Path
 import pystray
 from PIL import Image
 import pygetwindow as gw
-import subprocess
 import sys
 LOCKED_FILE_PATH = "C:\\IT\\AutoStuff\\locked.txt"
 ICO_PATH = Path("C:\\IT\\AutoStuff\\miti.ico")
@@ -119,7 +118,7 @@ def clear_old_logs(log_path):
     except Exception as e:
         logging.exception(f"An error occurred while clearing old logs: {e}")
 def create_system_tray_icon(terminate_event, restart_event):
-    def on_exit(icon, item):
+    def on_exit(item):
         logging.info(f"Selected menu item: {item}")
         if item == "Exit":
             terminate_event.set()
@@ -133,15 +132,22 @@ def create_system_tray_icon(terminate_event, restart_event):
 def restart_program():
     python = sys.executable
     os.execl(python, python, *sys.argv)
+
 def main():
     base_path = r'C:\IT\AutoStuff'
-    log_path = os.path.join(base_path, 'Log.txt')
-    config_path = CONFIG_PATH
-    if not verifica_sa_fie_singur(LOCKED_FILE_PATH):
-        return
     if not os.path.exists(base_path):
         os.makedirs(base_path)
         logging.info(f"Script created its own path: {base_path}")
+    config_path = CONFIG_PATH
+    if not os.path.exists(config_path):
+        os.makedirs(config_path)
+        logging.info(f"Script created its own path: {config_path}")
+    log_path = os.path.join(base_path, 'Log.txt')
+    if not os.path.exists(log_path):
+        os.makedirs(log_path)
+        logging.info(f"Script created its own path: {log_path}")
+    if not verifica_sa_fie_singur(LOCKED_FILE_PATH):
+        return
     nu_deschidem_mai_multe_instante(LOCKED_FILE_PATH)
     setup_logging(log_path)
     config = configparser.ConfigParser()
@@ -175,9 +181,11 @@ def main():
         if restart_event.is_set():
             logging.info("Restarting the application...")
             os.remove(LOCKED_FILE_PATH)
-            os.execv(sys.executable, [sys.executable] + sys.argv)
-    except KeyboardInterrupt:
-        logging.info("Script stopped by the user.")
+            restart_program()
+        if terminate_event.is_set():
+            logging.info("Stopping program")
+            os.remove(LOCKED_FILE_PATH)
+            sys.exit()
     except Exception as e:
         logging.exception(f"An unexpected error occurred: {e}")
     finally:
