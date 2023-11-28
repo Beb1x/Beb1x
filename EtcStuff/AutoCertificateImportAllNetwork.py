@@ -2,7 +2,6 @@ import os
 import getpass
 import subprocess
 import paramiko
-import datetime
 import winreg
 import winrm
 from base64 import b64encode
@@ -10,7 +9,7 @@ from base64 import b64encode
 # Define the username and password
 username = "your_username"
 password = "your_password"
-
+# this i will make it an full on aplication
 # Function to detect certificates in the program's folder
 def detect_certificates():
     script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -87,5 +86,5 @@ def run_batch_script_remotely(target_pc, script_path):
         encoded_ps_script_base64 += f"[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('{b64encode(ps_script_encoded[i:i + 6000]).decode('utf-8')}')); ".encode('utf-8')
 
     encoded_ps_script_base64 = encoded_ps_script_base64.decode('utf-8')
-    response = session.run_ps(encoded
+    response = session.run_ps(encoded)
 #ITS WORK IN PROGRESS SO BARE WITH ME OK ?

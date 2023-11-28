@@ -1,5 +1,6 @@
 import os
-
+#why i put this upon me
+#i love it
 script_template = """
 def main():
     config_path = 'C:/IT/WebExtractor/config.ini'
@@ -92,12 +93,12 @@ def generate_script(script_name):
  script_path = os.path.join('scripts', script_name + '.py')
  with open(script_path, 'w') as script_file:
   script_file.write(script_template)
-
+## FFS
 if name == "main":
 # Generate the sub-scripts you need
   generate_script('config_manager')
   generate_script('web_scraper')
-
+#WHY??!?!?!?
 from scripts.config_manager import ConfigManager
 from scripts.web_scraper import scrape_and_download
 
@@ -117,3 +118,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#WHOLE MESS
