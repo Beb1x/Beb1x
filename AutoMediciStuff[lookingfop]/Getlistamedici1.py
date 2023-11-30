@@ -2,7 +2,6 @@ import requests
 import os
 import re
 import zipfile
-from datetime import datetime
 import configparser
 import time
 
