@@ -34,7 +34,7 @@ try:
         # Your SQL query
         query = f"""
             WITH OrderedSerializareLog AS (
-                SELECT TOP 2
+                SELECT TOP 1
                     ID,
                     GTIN,
                     SN,
