@@ -19,7 +19,8 @@ FTP_HOST = "test"
 FTP_USERNAME = "test"
 FTP_PASSWORD = "test"
 FTP_REMOTE_PATH = "Medici test"
-
+UNRAR_PATH = r'C:\IT\AutoMedic\Unrar.exe'
+os.environ['PATH'] = f"{os.path.dirname(UNRAR_PATH)};{os.environ['PATH']}"
 
 if not os.path.exists(LOG_FOLDER):
     os.makedirs(LOG_FOLDER, exist_ok=True)
@@ -119,17 +120,15 @@ def download_from_ftp(ftp_host, ftp_username, ftp_password, remote_path, local_p
 
 def extract_rar_file(rar_file, extract_path):
     try:
-        Archive(os.path.join(extract_path, rar_file)).extractall(extract_path)
+        Archive(os.path.join(extract_path, rar_file)).extractall(extract_path, program=UNRAR_PATH)
         logger.info(f"Successfully extracted {rar_file} to {extract_path}")
         time.sleep(3)
-        os.remove(os.path.join(extract_path, rar_file))
-        logger.info(f"Deleted {rar_file}")
         return True
     except Exception as e:
         logger.error(f"Error extracting {rar_file}: {e}")
         return False
-    
 
+# Rest of your script
 for key, value in config["Settings"].items():
     if key.startswith("path"):
         download_path = value
@@ -152,7 +151,6 @@ for key, value in config["Settings"].items():
                             logger.error(f"Failed to extract {matching_file} to {download_path}")
                     else:
                         logger.error(f"Failed to download {matching_file} from FTP to {download_path}")
-
         except Exception as e:
             logger.error(f"Error accessing FTP: {e}")
             
