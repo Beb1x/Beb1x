@@ -2,7 +2,8 @@ import pyodbc
 import configparser
 import ReadExcellAndHost as REH
 from ReadFromExcell import read_from_excel
-
+import WriteToExcell
+from WriteToExcell  import Excell_update
 # Replace these values with your actual database connection details
 server = REH.ip_address_result
 
@@ -23,6 +24,7 @@ try:
     conn = pyodbc.connect(conn_str)
     cursor = conn.cursor()
     all_values = read_from_excel(excel_file_path)
+    all_results = []
 
     for row_number, gtine_value, sne_value in all_values:
         GTINE = gtine_value
@@ -32,7 +34,7 @@ try:
         # Your SQL query
         query = f"""
             WITH OrderedSerializareLog AS (
-                SELECT TOP 15
+                SELECT TOP 2
                     ID,
                     GTIN,
                     SN,
@@ -71,13 +73,20 @@ try:
 
         cursor.execute(query)
         results = cursor.fetchall()
-
         for result_row in results:
             print(row_number, GTINE, SNE, result_row.STATUS)
-
+            all_results.append((result_row.STATUS))
+            
+    
+            
 except pyodbc.Error as e:
     print(f"Error connecting to the database: {e}")
+    
 
 finally:
     if conn:
         conn.close()
+    
+print(all_results)        
+print("Updating results to excell................................")
+Excell_update(all_results)

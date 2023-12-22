@@ -1,6 +1,7 @@
 import os
 import re
 
+
 excel_directory = r'C:\Serializare'
 hosts_file_path = r'C:\Windows\System32\drivers\etc\hosts'
 

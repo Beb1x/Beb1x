@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import re
 import zipfile
@@ -8,16 +9,16 @@ from logging.handlers import TimedRotatingFileHandler
 from datetime import datetime, timedelta
 import requests
 from ftplib import FTP
-import patoolib
 from pyunpack import Archive
 BASE_URL = "http://www.casan.ro/cjasvs/page/nomenclatoare.html"
 FILE_PATTERN = r'NomenclatoareFarmacii_\d{8}.xml.zip'
+FILE_PATTERNR = r'\d{8}.rar'
 LOG_FOLDER = "C:\\IT\\AutoMedic\\logs"
 CONFIG_FILE_PATH = "C:\\IT\\AutoMedic\\ConfigMedici.ini"
-FTP_HOST = "zz"
-FTP_USERNAME = "tes"
-FTP_PASSWORD = "stes"
-FTP_REMOTE_PATH = "test"
+FTP_HOST = "test"
+FTP_USERNAME = "test"
+FTP_PASSWORD = "test"
+FTP_REMOTE_PATH = "Medici test"
 
 
 if not os.path.exists(LOG_FOLDER):
@@ -154,3 +155,24 @@ for key, value in config["Settings"].items():
 
         except Exception as e:
             logger.error(f"Error accessing FTP: {e}")
+            
+            
+try:
+    for key, value in config["Settings"].items():
+        if key.startswith("path"):
+            download_path = value
+
+            rar_files = [f for f in os.listdir(download_path) if f.endswith(".rar")]
+            for rar_file in rar_files:
+                file_path = os.path.join(download_path, rar_file)
+                os.remove(file_path)
+                logger.info(f"Deleted {rar_file}")
+
+            zip_files = [f for f in os.listdir(download_path) if f.endswith(".zip")]
+            for zip_file in zip_files:
+                file_path = os.path.join(download_path, zip_file)
+                os.remove(file_path)
+                logger.info(f"Deleted {zip_file}")
+
+except Exception as e:
+    logger.error(f"Error deleting files: {e}")
