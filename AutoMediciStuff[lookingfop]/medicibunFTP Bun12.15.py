@@ -16,10 +16,10 @@ FILE_PATTERN = r'NomenclatoareFarmacii_\d{8}.xml.zip'
 FILE_PATTERNR = r'\d{8}.rar'
 LOG_FOLDER = "C:\\IT\\AutoMedic\\logs"
 CONFIG_FILE_PATH = "C:\\IT\\AutoMedic\\ConfigMedici.ini"
-FTP_HOST = "zz"
-FTP_USERNAME = "z"
-FTP_PASSWORD = "zz"
-FTP_REMOTE_PATH = "z z"
+FTP_HOST = "ip"
+FTP_USERNAME = "grr"
+FTP_PASSWORD = "grr"
+FTP_REMOTE_PATH = "grr"
 UNRAR_PATH = r'C:\IT\AutoMedic\Unrar.exe'
 os.environ['PATH'] = f"{os.path.dirname(UNRAR_PATH)};{os.environ['PATH']}"
 
@@ -121,7 +121,7 @@ def download_from_ftp(ftp_host, ftp_username, ftp_password, remote_path, local_p
 
 def extract_rar_file(rar_file, extract_path):
     try:
-        subprocess.run([UNRAR_PATH, 'x', rar_file, extract_path])
+        subprocess.run([UNRAR_PATH, 'x','-y', rar_file, extract_path])
         logger.info(f"Successfully extracted {rar_file} to {extract_path}")
         time.sleep(3)
         return True
