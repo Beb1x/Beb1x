@@ -45,12 +45,12 @@ logger = logging.getLogger()
 logger.addHandler(log_handler)
 logger.setLevel(logging.INFO)
 
-# Check if the directory exists, create it if not
+
 config_directory = os.path.dirname(CONFIG_FILE_PATH)
 if not os.path.exists(config_directory):
     os.makedirs(config_directory)
 
-# Check if the config file exists, create it with default settings if not
+
 if not os.path.exists(CONFIG_FILE_PATH):
     config = configparser.ConfigParser()
     config["Settings"] = {
@@ -61,7 +61,7 @@ if not os.path.exists(CONFIG_FILE_PATH):
         config.write(configfile)
     os.chmod(CONFIG_FILE_PATH, 0o444)
 
-# Read from the config file
+
 config = configparser.ConfigParser()
 config.read(CONFIG_FILE_PATH)
 
@@ -129,11 +129,10 @@ def extract_rar_file(rar_file, extract_path):
         logger.error(f"Error extracting {rar_file}: {e}")
         return False
 
-# Rest of your script
 for key, value in config["Settings"].items():
     if key.startswith("path"):
         download_path = value
-        file_pattern = re.compile(r'^AOPSNAJ.*\.rar$', re.IGNORECASE)  # Update the pattern as needed
+        file_pattern = re.compile(r'^AOPSNAJ.*\.rar$', re.IGNORECASE)
         try:
             with FTP(FTP_HOST) as ftp:
                 ftp.login(FTP_USERNAME, FTP_PASSWORD)
