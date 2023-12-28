@@ -45,7 +45,7 @@ try:
                     ConfirmatManual,
                     ROW_NUMBER() OVER (ORDER BY ID DESC) AS RowNum
                 FROM SerializareLog
-                WHERE sn LIKE '%{SNE}%' AND GTIN='{GTINE}'
+                WHERE sn LIKE '%{SNE}%' AND GTIN='{GTINE}' and PackState='UNKNOWN'
             )
             SELECT 
                 c.GTIN,
