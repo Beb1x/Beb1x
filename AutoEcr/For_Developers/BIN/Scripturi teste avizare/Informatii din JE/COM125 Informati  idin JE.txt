@@ -1,0 +1,20 @@
+125,3[\t]1[\t]10001[\t]
+
+Com[\t]Options[\t]DokType[\t]
+
+
+ Options
+ 0 - Selectati documentul pentru citire  
+ 1 - Citeste o singura linie ca text  
+ 2 - Citire  date 
+ 3 - Printeaza document  
+10 - Seteaza Log File pentru citire  
+11 - Citeste o linie din Fisierul Log   
+13 - Tipareste  LOG file
+ 
+ DokType
+0 - Toate tipurile                                                                                                                                    1 - Bonuri fiscale                                                                                                                                 2 - Rapoarete Z                                                                                                                                   3 - Facturi                                                                                                                         4 - Bonuri nefiscale
+1 - Bon fiscal
+2 - Rapoarte Z
+3 - Facturi
+4 - Bonuri nefiscale

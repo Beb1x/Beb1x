@@ -1,0 +1,8 @@
+Codul de bare trebuie introdus in interiorul bonului
+intre comanda:  Deschidere bon fiscal si comanda: TOTAL
+
+84,2[\t]8410376017113[\t]
+Tipul codului de bare :  1 = EAN     8
+                         2 = EAN    13
+                         3 = CODE  128
+                         4 = QR Code

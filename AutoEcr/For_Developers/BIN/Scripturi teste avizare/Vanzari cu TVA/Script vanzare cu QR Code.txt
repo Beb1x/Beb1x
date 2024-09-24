@@ -1,0 +1,7 @@
+48,1[\t]0001[\t]1[\t]I[\t]RO123456789[\t]
+49,CANAPEA LORETT[\t]1[\t]1000.00[\t]5.000[\t][\t][\t]1[\t]BUC.[\t]
+84,4[\t]DANUBIUS EXIM\GANDESTE SPRE VIITOR\https://www.danubius-exim.ro[\t]
+53,0[\t][\t]
+56
+
+

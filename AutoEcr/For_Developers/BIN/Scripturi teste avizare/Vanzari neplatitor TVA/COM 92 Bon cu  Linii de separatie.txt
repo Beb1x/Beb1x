@@ -1,0 +1,13 @@
+48,1[\t]0001[\t]1[\t][\t][\t]
+49,VOPSEA SAVANA[\t]5[\t]99999[\t]3[\t][\t][\t]1[\t]KG.[\t]
+92,1[\t]
+49,DILUANT NITRO[\t]5[\t]250[\t]7[\t][\t][\t]1[\t]BUC.[\t]
+92,1[\t]
+49,PENSULA ROTUNDA[\t]5[\t]97979[\t]3[\t][\t][\t]BUC.[\t]3[\t]
+92,1[\t]
+49,MISTRIE 1H[\t]5[\t]200[\t]0[\t][\t][\t]1[\t]BUC.[\t]
+92,1[\t]
+49,BANDA ADEZIVA[\t]5[\t]500[\t]0[\t][\t][\t]1[\t]BUC.[\t]
+92,1[\t]
+53,0[\t][\t]
+56

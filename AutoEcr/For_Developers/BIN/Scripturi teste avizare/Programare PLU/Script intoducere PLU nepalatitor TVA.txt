@@ -1,0 +1,12 @@
+
+107,P[\t]1[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]CANAPEA LORETT[\t]0[\t]
+107,P[\t]2[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]AVANS[\t]0[\t]
+107,P[\t]3[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]SALTEA DORMEO[\t]0[\t]
+107,P[\t]4[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]DULAP HAINE[\t]0[\t]
+107,P[\t]5[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]FOTOLIU EXTENSIBIL[\t]0[\t]
+107,P[\t]6[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]SCAUN BUCATARIE[\t]0[\t]
+107,P[\t]7[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]RAFT DEBARA[\t]0[\t]
+107,P[\t]8[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]NOPTIERA WENGHE [\t]0[\t]
+107,P[\t]9[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]MASA BUCATARIE[\t]0[\t]
+107,P[\t]10[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]SCAUN COPIL[\t]0[\t]
+107,P[\t]11[\t]F[\t]1[\t]1[\t]1[\t]1.00[\t]A[\t]1000[\t][\t][\t][\t][\t]TABURET OLAF[\t]0[\t]

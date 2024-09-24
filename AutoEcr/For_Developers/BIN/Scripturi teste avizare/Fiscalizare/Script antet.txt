@@ -1,0 +1,13 @@
+
+
+43,W[\t]1[\t]^D^A^N^U^B^I^U^S ^E^X^I^M[\t]
+43,W[\t]2[\t]STR. VASILE GHERGHEL NR.12[\t]
+43,W[\t]3[\t]SECTOR 1 BUCURESTI[\t]
+43,W[\t]4[\t]TESTE AVIZARE MODEL FP700[\t]
+43,W[\t]5[\t]HEADER 5[\t]
+43,W[\t]6[\t]HEADER 6[\t]
+43,W[\t]7[\t]HEADER 7[\t]
+43,W[\t]8[\t]HEADER 8[\t]
+43,W[\t]9[\t]HEADER 9[\t]
+43,W[\t]10[\t]HEADER 10[\t]
+43,W[\t]

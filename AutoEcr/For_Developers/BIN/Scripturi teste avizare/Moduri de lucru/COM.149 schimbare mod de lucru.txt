@@ -1,0 +1,6 @@
+149,1[\t]
+
+   0 = mod normal
+   2 = mod proba   
+   3 = mod scoala  Nu tipareste pe bon Mod scoala
+ 

@@ -1,0 +1,8 @@
+123,1[\t]
+
+- Serie Fabricatie, Serie Fiscala, Cod Fiscal, Antet
+
+
+123,3[\t]
+
+Data

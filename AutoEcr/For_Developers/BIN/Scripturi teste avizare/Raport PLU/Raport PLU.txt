@@ -1,0 +1,3 @@
+111,1[\t]1[\t]4[\t]
+
+0 - Raport PLUdetaliat                                                                                                         1 - Raport PLUsumar                                                                                                           2 - Raport PLU detaliat cu stergere                                                                                                 3 - Raport PLUsumar cu stergere                                                                                        4 - Raport parametri PLU                                                                                                    5 - Raport PLU stocuri

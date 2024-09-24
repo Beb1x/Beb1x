@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alessandro.gorreta\\OneDrive - High-Tech Systems & Software SRL\\etc\\GitHub\\GithubV2\\Beb1x\\autoecr\\autoecr.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alessandro.gorreta\\OneDrive - High-Tech Systems & Software SRL\\etc\\GitHub\\GithubV2\\Beb1x\\autoecr\\autoecr.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alessandro.gorreta\\OneDrive - High-Tech Systems & Software SRL\\etc\\GitHub\\GithubV2\\Beb1x\\autoecr\\autoecr.csproj",
+        "projectName": "autoecr",
+        "projectPath": "C:\\Users\\alessandro.gorreta\\OneDrive - High-Tech Systems & Software SRL\\etc\\GitHub\\GithubV2\\Beb1x\\autoecr\\autoecr.csproj",
+        "packagesPath": "C:\\Users\\alessandro.gorreta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alessandro.gorreta\\OneDrive - High-Tech Systems & Software SRL\\etc\\GitHub\\GithubV2\\Beb1x\\autoecr\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alessandro.gorreta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

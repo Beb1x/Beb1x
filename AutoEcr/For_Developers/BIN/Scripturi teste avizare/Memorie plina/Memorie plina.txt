@@ -1,0 +1,28 @@
+{Programare Art}
+107,P[\t]1[\t]A[\t]1[\t]1[\t]0[\t]1.00[\t]A[\t]1000[\t]1000002[\t]2000002[\t]3000002[\t]4000002[\t]Bread[\t]0[\t]
+
+{Optire tiparirr}
+45,0[\t]
+
+{Numar de rapoarte}
+*2430,l
+{Bon fiscal}
+48,1[\t]0001[\t]1[\t][\t][\t]
+58,1[\t]1[\t][\t][\t][\t]
+53,0[\t][\t]
+56
+{Raport}
+69,Z[\t]
+:l
+
+
+
+{Umplere EJ}
+71,#[\t]1[\t]
+
+{Curatare fisiere}
+71,#[\t]2[\t]
+
+{Intoarce nr ramase}
+71,#[\t]3[\t]
+

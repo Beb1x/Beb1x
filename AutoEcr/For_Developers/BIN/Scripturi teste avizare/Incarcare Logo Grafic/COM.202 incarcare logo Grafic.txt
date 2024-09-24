@@ -1,0 +1,3 @@
+202,START[\t]
+
+START     - Prergatire pentru incarcare LOGO Grafic                                                                                   STOP      - Orire incarcare                                                                                                                                           POWEROFF  - Oprire imprimanta                                                                                                    RESTART   - Restart imprimanta

@@ -1,0 +1,4 @@
+64,1[\t]
+
+0 - Brut sums ( including simplify invoices );
+ 1 - Vat sums ( including simplify invoices 

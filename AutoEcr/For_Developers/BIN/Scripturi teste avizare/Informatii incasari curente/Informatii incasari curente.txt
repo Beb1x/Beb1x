@@ -1,0 +1,8 @@
+110,1[\t]
+
+ 0 - plati; 
+ 1 - nu se foloseste; 
+ 2 - numarul si suma vanzarilor
+ 3 - numarul si suma reducerilor
+ 4 - numarul , suma corectiilor si incasarilor anulate 
+ 5 - numarul si suma operatiunilor de incasare

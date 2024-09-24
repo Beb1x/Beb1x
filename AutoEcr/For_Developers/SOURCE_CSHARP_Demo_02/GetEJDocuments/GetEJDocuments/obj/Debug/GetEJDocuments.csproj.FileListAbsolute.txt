@@ -1,0 +1,12 @@
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.csproj.ResolveComReference.cache
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.fm.resources
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.Properties.Resources.resources
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.csproj.GenerateResource.Cache
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.csproj.CoreCompileInputs.cache
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\bin\Debug\GetEJDocuments.exe.config
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\bin\Debug\GetEJDocuments.exe
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\bin\Debug\GetEJDocuments.pdb
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.csprojResolveAssemblyReference.cache
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\Interop.dude.dll
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.exe
+D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_CSHARP_Demo_02\GetEJDocuments\GetEJDocuments\obj\Debug\GetEJDocuments.pdb

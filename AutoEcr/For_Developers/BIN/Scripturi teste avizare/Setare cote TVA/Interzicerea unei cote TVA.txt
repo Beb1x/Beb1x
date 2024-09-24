@@ -1,0 +1,5 @@
+Intrzice Taxa: A   (exemplu) 
+83,100.02[\t]
+
+Intrzice Taxa: C   (exemplu)
+83,19.00[\t]9.00[\t]100.02[\t]0.00[\t]0.00[\t]

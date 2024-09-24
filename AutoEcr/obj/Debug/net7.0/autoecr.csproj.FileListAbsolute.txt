@@ -1,0 +1,4 @@
+C:\Users\alessandro.gorreta\OneDrive - High-Tech Systems & Software SRL\etc\GitHub\GithubV2\Beb1x\autoecr\obj\Debug\net7.0\autoecr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alessandro.gorreta\OneDrive - High-Tech Systems & Software SRL\etc\GitHub\GithubV2\Beb1x\autoecr\obj\Debug\net7.0\autoecr.AssemblyInfoInputs.cache
+C:\Users\alessandro.gorreta\OneDrive - High-Tech Systems & Software SRL\etc\GitHub\GithubV2\Beb1x\autoecr\obj\Debug\net7.0\autoecr.AssemblyInfo.cs
+C:\Users\alessandro.gorreta\OneDrive - High-Tech Systems & Software SRL\etc\GitHub\GithubV2\Beb1x\autoecr\obj\Debug\net7.0\autoecr.csproj.CoreCompileInputs.cache

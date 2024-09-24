@@ -1,0 +1,28 @@
+48,1[\t]0001[\t]1[\t]I[\t]RO123456789[\t]
+49,VOPSEA SAVANA[\t]5[\t]99999.00[\t]3.000[\t]1[\t]10.00[\t]1[\t]KG.[\t]
+49,GRESIE DECORATIVA[\t]5[\t]100.00[\t]9.000[\t]1[\t]10.00[\t]1[\t]METRU[\t]
+49,DILUANT NITRO[\t]5[\t]250.00[\t]7.000[\t][\t][\t]1[\t]LITRI[\t]
+49,TRAFALETE[\t]5[\t]450.00[\t]5.000[\t][\t][\t]1[\t]BUC.[\t]
+49,PENSULA ROTUNDA[\t]5[\t]97979.00[\t]3.00[\t][\t][\t]3[\t]BUC.[\t]
+49,SPACLU INOX[\t]5[\t]150.00[\t]0[\t][\t][\t]1[\t]BUC.[\t]
+49,MISTRIE 1H[\t]5[\t]200.00[\t]0[\t][\t][\t]1[\t]BUC.[\t]
+51,1[\t]1[\t]2[\t]10.00[\t]
+53,0[\t][\t]
+56
+
+________________________________________________________________
+
+Comanda :51 Functia Subtotal
+
+51,Print[\t]Display[\t]DiscountType[\t]DiscountValue[\t]
+
+51,1[\t]1[\t]2[\t]5.00[\t]
+
+Print  Tipareste suma  dupa subtotal                                                                                                                                    0 - Nu tipareste                                                                                                                                                 1 - Tipareste 
+
+Display -Afisaza subtotalul pe afisajul client                                                                                                             0 - Nu afiseaza                                                                                                                            1 - Afiseaza
+ 
+DiscountType - Tip discount.                                                                                                                0 or empty - no discount;                                                                                                                         1 - cost suplimentar în func?ie de procent                                                                                                  2 - discount procentual                                                                                                                                              3 - cost suplimentar în func?ie valoare                                                                                                                                       4 - discount valoric;                                                                                                                                            5 - nu se foloseste                                                                                                                                                        6 - nu se foloseste                                                                                                                                               7 - special discont STL by sum
+ 
+DiscountValue  
+Valoare discount

@@ -1,0 +1,10 @@
+124,15-11-17 09:00:00[\t]15-11-17 15:30:00[\t]0[\t]
+
+124,StartDate[\t]EndDate[\t]DocType[\t]
+ 
+Document Type
+0 - Toate tipurile                                                                                                                                    1 - Bonuri fiscale                                                                                                                                 2 - Rapoarete Z                                                                                                                                   3 - Facturi                                                                                                                         4 - Bonuri nefiscale
+1 - Bon fiscal;
+2 - Rapoarte Z
+3 - Facturi
+4 - Bonuri nefiscale

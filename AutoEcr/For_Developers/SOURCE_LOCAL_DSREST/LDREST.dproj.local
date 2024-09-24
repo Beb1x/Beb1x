@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.831,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\SOURCE_LOCAL_DSREST.dproj=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\LDREST.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\WebModuleUnit1.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_WebModule.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.552,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.533,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\base64-min.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.513,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\serverfunctions.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\json2.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.907,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\WebModuleUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.834,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.708,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.437,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiPackage\dude_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.354,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiPackage\ddd_Rou_TLB.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerContainerUnit1.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_ServerContainer.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.750,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerMethodsUnit1.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_ServerMethods.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\WebModuleUnit1.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_WebModule.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\base64.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.682,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerMethodsUnit1.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_ServerMethods.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.639,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\connection.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.609,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\callbackframework-min.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.673,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.713,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\css\main.css</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.791,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\templates\reversestring.html</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.306,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\FormUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.824,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\FormUnit1.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_MainForm.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\ServerContainerUnit1.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_ServerContainer.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.461,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.580,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.824,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\FormUnit1.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\u_MainForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.879,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\images\collapse.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.556,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\json2-min.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.492,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\js\callbackframework.js</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_LOCAL_DSREST\images\expand.png</Transaction>
+  </Transactions>
+</BorlandProject>
