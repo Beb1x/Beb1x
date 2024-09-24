@@ -7,6 +7,7 @@ import socket
 import sys
 from AutoPinV2 import AutoPinConfig, AutoPin
 
+#NOT LONGER USED
 class AutoPinService(win32serviceutil.ServiceFramework):
     _svc_name_ = 'AutoPinService'
     _svc_display_name_ = 'AutoPin Service'

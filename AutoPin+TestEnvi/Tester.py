@@ -4,6 +4,7 @@ import winreg
 
 
 
+#NOT LONGER USED
 
 class CREDUI_INFO(ctypes.Structure):
     _fields_ = [

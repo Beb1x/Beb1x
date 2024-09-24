@@ -10,6 +10,7 @@ from typing import Optional
 import signal
 import sys
 
+#NOT LONGER USED
 def setup_logging(log_path: str) -> None:
     logging.basicConfig(filename=log_path, level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
     console_handler = logging.StreamHandler()

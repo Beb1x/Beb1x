@@ -11,6 +11,8 @@ import pystray
 from PIL import Image
 import pygetwindow as gw
 import sys
+
+#NOT LONGER USED
 LOCKED_FILE_PATH = "C:\\IT\\AutoStuff\\locked.txt"
 ICO_PATH = Path("C:\\IT\\AutoStuff\\miti.ico")
 CONFIG_PATH = "C:\\IT\\AutoStuff\\Config.ini"
