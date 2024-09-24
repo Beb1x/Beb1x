@@ -13,6 +13,7 @@ import pygetwindow as gw
 import sys
 from pygetwindow import Win32Window
 #pain 28/11/2023
+#NOT LONGER USED
 #i think im gonna make an installer then the exe standalone guys fr no cap
 class AutoPinConfig:
     def __init__(self, config_path):

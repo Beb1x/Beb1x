@@ -2,6 +2,7 @@
 # Python 3.11
 # Author :beb1x
 # Date of creation . between 10.08.2023 - 16.08.2023
+# DO NOT JUDGE IS CHILD OF ZEKA, AND WILL BE TOTALLY REWORKED FROM GROUND UP , SOON I HOPE
 import os
 import win32serviceutil
 import win32com.client
