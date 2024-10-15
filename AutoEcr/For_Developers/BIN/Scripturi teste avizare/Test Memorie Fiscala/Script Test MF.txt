@@ -1,3 +1,0 @@
-Srie in MF = 89,1[\t]
-
-Citeste din MF = 89,0[\t]

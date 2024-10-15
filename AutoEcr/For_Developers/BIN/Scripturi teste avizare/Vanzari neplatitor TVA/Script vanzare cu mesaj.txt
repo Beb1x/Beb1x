@@ -1,7 +1,0 @@
-48,1[\t]0001[\t]1[\t]I[\t]RO123456789[\t]
-49,CANAPEA LORETT[\t]5[\t]200[\t]1[\t][\t][\t]1[\t]BUC.[\t]
-49,AVANS CANAPEA LORETT[\t]1[\t]-100[\t]1[\t][\t][\t]1[\t]BUC.[\t]
-53,0[\t][\t]
-56
-47, MULTUMIM ! [\t]
-35, VA MAI ASTEPTAM [\t]

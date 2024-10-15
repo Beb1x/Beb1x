@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.445,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\ufmMain.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\u_MainForm.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.246,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\uFMain.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\ufmMain.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.246,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\uFMain.dfm=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\ufmMain.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.445,D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\ufmMain.pas=D:\SOFT_SVN\PROJECTS\Romania\COM_SERVER\SOURCE_DelphiDemo_02\u_MainForm.pas</Transaction>
-  </Transactions>
-</BorlandProject>

@@ -1,5 +1,0 @@
-38,
-42,Bon nefiscal randul 1[\t]
-42,si asta este randul 2[\t]	
-39,
-90

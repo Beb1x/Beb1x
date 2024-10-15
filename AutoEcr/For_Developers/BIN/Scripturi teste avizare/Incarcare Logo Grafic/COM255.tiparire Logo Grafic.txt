@@ -1,4 +1,0 @@
-255,LogoPrint[\t]0[\t]1[\t]
-
-    1 = tipareste Logo Grafic
-    0 = nu tipareste

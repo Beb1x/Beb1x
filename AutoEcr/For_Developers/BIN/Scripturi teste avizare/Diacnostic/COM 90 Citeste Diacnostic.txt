@@ -1,3 +1,0 @@
-90,1[\t]  =  Diacnostic cu Firmware
-
-90        =  Diacnostic fara Firmware

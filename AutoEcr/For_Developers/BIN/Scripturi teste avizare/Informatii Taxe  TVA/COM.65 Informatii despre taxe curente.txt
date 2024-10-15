@@ -1,6 +1,0 @@
-65,1[\t]
-
- 0 - Intoarce grupul de taxe
- 1 - Intoarce suma taxelor
- 2 - Intoarce grupul de taxe
- 3 - Intoarce suma taxelor

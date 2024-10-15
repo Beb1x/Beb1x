@@ -1,3 +1,0 @@
-106,300[\t]
-
-Parametrul 2=300 poate fi setat de la :0...65535
